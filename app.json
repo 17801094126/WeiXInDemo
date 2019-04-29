@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "page/Home/index",
+    "page/DK/index",
+    "page/My/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#57A2FF",
+    "color": "#999999",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "page/Home/index",
+        "text": "首页",
+        "iconPath": "images/shouye_1.png",
+        "selectedIconPath": "images/shouye.png"
+      },
+      {
+        "pagePath": "page/DK/index",
+        "text": "大全",
+        "iconPath": "images/daikuandaquan_1.png",
+        "selectedIconPath": "images/daikuandaquan.png"
+      },
+      {
+        "pagePath": "page/My/index",
+        "text": "我的",
+        "iconPath": "images/wode_1.png",
+        "selectedIconPath": "images/wode.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
